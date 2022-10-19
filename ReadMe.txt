@@ -13,3 +13,6 @@ in order to run the server you will need to follow this steps:
 if docker compose up does not work use this command instead:
 run command on cmd to run a container on docker -
     docker run --name optival-server -p 5432:5432 -e POSTGRES_USER=user -e POSTGRES_PASSWORD=pass -e POSTGRES_DB=optival-data-feed-server -d postgres
+
+after you finish setting the DB run the command:
+npm run start
